@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utilities.Extentreports"/>
+  </listeners>
+  <test thread-count="5" name="Testing(failed)" verbose="0">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.testcase_travelinsurance">
+        <methods>
+          <include name="tripdates"/>
+          <include name="addingfilter"/>
+          <include name="countrydetails"/>
+          <include name="medicaldetails"/>
+          <include name="plantype"/>
+          <include name="tripduration"/>
+          <include name="travellerage"/>
+          <include name="pageclose"/>
+          <include name="Enteringphone"/>
+          <include name="setup"/>
+          <include name="InsurancePlans"/>
+          <include name="studentinfo"/>
+        </methods>
+      </class> <!-- TestCases.testcase_travelinsurance -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2304100\eclipse-workspace\Hackathon\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="Enteringphone">Enteringphone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="InsurancePlans">InsurancePlans</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="addingfilter">addingfilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="carbrand">carbrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="carinsurancepage">carinsurancepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="cityandrto">cityandrto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_healthinsurance" class="method navigator-link" hash-for-method="clickproduct">clickproduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="countrydetails">countrydetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_healthinsurance" class="method navigator-link" hash-for-method="displayinsurancelist">displayinsurancelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="errorMessage">errorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="homePage">homePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="invalidemail">invalidemail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="medicaldetails">medicaldetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_healthinsurance" class="method navigator-link" hash-for-method="navigateHomePage">navigateHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="plantype">plantype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="studentinfo">studentinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="travellerage">travellerage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="tripdates">tripdates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_travelinsurance" class="method navigator-link" hash-for-method="tripduration">tripduration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.testcase_carinsurance" class="method navigator-link" hash-for-method="varient">varient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.testcase_travelinsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Enteringphone">
+                  </a> <!-- Enteringphone -->
+                  <span class="method-name">Enteringphone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InsurancePlans">
+                  </a> <!-- InsurancePlans -->
+                  <span class="method-name">InsurancePlans</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingfilter">
+                  </a> <!-- addingfilter -->
+                  <span class="method-name">addingfilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="countrydetails">
+                  </a> <!-- countrydetails -->
+                  <span class="method-name">countrydetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="medicaldetails">
+                  </a> <!-- medicaldetails -->
+                  <span class="method-name">medicaldetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="plantype">
+                  </a> <!-- plantype -->
+                  <span class="method-name">plantype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studentinfo">
+                  </a> <!-- studentinfo -->
+                  <span class="method-name">studentinfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="travellerage">
+                  </a> <!-- travellerage -->
+                  <span class="method-name">travellerage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tripdates">
+                  </a> <!-- tripdates -->
+                  <span class="method-name">tripdates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tripduration">
+                  </a> <!-- tripduration -->
+                  <span class="method-name">tripduration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.testcase_healthinsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickproduct">
+                  </a> <!-- clickproduct -->
+                  <span class="method-name">clickproduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayinsurancelist">
+                  </a> <!-- displayinsurancelist -->
+                  <span class="method-name">displayinsurancelist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateHomePage">
+                  </a> <!-- navigateHomePage -->
+                  <span class="method-name">navigateHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.testcase_carinsurance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carbrand">
+                  </a> <!-- carbrand -->
+                  <span class="method-name">carbrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carinsurancepage">
+                  </a> <!-- carinsurancepage -->
+                  <span class="method-name">carinsurancepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cityandrto">
+                  </a> <!-- cityandrto -->
+                  <span class="method-name">cityandrto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessage">
+                  </a> <!-- errorMessage -->
+                  <span class="method-name">errorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePage">
+                  </a> <!-- homePage -->
+                  <span class="method-name">homePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidemail">
+                  </a> <!-- invalidemail -->
+                  <span class="method-name">invalidemail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="varient">
+                  </a> <!-- varient -->
+                  <span class="method-name">varient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2304100\eclipse-workspace\Hackathon\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.Extentreports&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.testcase_travelinsurance&quot;/&gt;
+      &lt;class name=&quot;TestCases.testcase_carinsurance&quot;/&gt;
+      &lt;class name=&quot;TestCases.testcase_healthinsurance&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Enteringphone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">InsurancePlans</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addingfilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">carbrand</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">carinsurancepage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cityandrto</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickproduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">countrydetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">displayinsurancelist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">errorMessage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidemail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">medicaldetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">plantype</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">studentinfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">travellerage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tripdates</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tripduration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">varient</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">carinsurancepage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickproduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">countrydetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">medicaldetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">travellerage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tripdates</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'carinsurancepage')
+data.setCell(0, 2, 'TestCases.testcase_carinsurance')
+data.setCell(0, 3, 10306);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'travellerage')
+data.setCell(1, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(1, 3, 9012);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidemail')
+data.setCell(2, 2, 'TestCases.testcase_carinsurance')
+data.setCell(2, 3, 6502);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'varient')
+data.setCell(3, 2, 'TestCases.testcase_carinsurance')
+data.setCell(3, 3, 4451);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'countrydetails')
+data.setCell(4, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(4, 3, 4386);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'carbrand')
+data.setCell(5, 2, 'TestCases.testcase_carinsurance')
+data.setCell(5, 3, 4376);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'studentinfo')
+data.setCell(6, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(6, 3, 4331);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'cityandrto')
+data.setCell(7, 2, 'TestCases.testcase_carinsurance')
+data.setCell(7, 3, 4261);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addingfilter')
+data.setCell(8, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(8, 3, 4243);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'plantype')
+data.setCell(9, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(9, 3, 4025);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tripdates')
+data.setCell(10, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(10, 3, 3895);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'navigateHomePage')
+data.setCell(11, 2, 'TestCases.testcase_healthinsurance')
+data.setCell(11, 3, 2301);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'homePage')
+data.setCell(12, 2, 'TestCases.testcase_carinsurance')
+data.setCell(12, 3, 2272);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'errorMessage')
+data.setCell(13, 2, 'TestCases.testcase_carinsurance')
+data.setCell(13, 3, 2120);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'InsurancePlans')
+data.setCell(14, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(14, 3, 1885);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Enteringphone')
+data.setCell(15, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(15, 3, 1312);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'displayinsurancelist')
+data.setCell(16, 2, 'TestCases.testcase_healthinsurance')
+data.setCell(16, 3, 1036);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'medicaldetails')
+data.setCell(17, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(17, 3, 575);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tripduration')
+data.setCell(18, 2, 'TestCases.testcase_travelinsurance')
+data.setCell(18, 3, 316);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'clickproduct')
+data.setCell(19, 2, 'TestCases.testcase_healthinsurance')
+data.setCell(19, 3, 112);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.testcase_healthinsurance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">pageclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.testcase_carinsurance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">pageclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testcase_travelinsurance</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">countrydetails</span>
+                <span class="method-start">10533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tripdates</span>
+                <span class="method-start">15279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">travellerage</span>
+                <span class="method-start">19417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">medicaldetails</span>
+                <span class="method-start">28657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Enteringphone</span>
+                <span class="method-start">29505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">plantype</span>
+                <span class="method-start">31009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studentinfo</span>
+                <span class="method-start">35213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tripduration</span>
+                <span class="method-start">39672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingfilter</span>
+                <span class="method-start">40168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InsurancePlans</span>
+                <span class="method-start">44579 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testcase_carinsurance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePage</span>
+                <span class="method-start">46581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">carinsurancepage</span>
+                <span class="method-start">48987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cityandrto</span>
+                <span class="method-start">59443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">carbrand</span>
+                <span class="method-start">63842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">varient</span>
+                <span class="method-start">68345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidemail</span>
+                <span class="method-start">72941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">errorMessage</span>
+                <span class="method-start">79573 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testcase_healthinsurance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateHomePage</span>
+                <span class="method-start">81828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickproduct</span>
+                <span class="method-start">84256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayinsurancelist</span>
+                <span class="method-start">84641 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.testcase_travelinsurance</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">pageclose</span>
+                <span class="method-start">85815 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

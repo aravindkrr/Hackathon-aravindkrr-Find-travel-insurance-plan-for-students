@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T17:12:07 IST" name="Suite" finished-at="2024-03-02T17:13:34 IST" duration-ms="87545">
+    <groups>
+      <group name="regression">
+        <method signature="testcase_travelinsurance.countrydetails()[pri:1, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="countrydetails" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.tripdates()[pri:2, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="tripdates" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.travellerage()[pri:3, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="travellerage" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.medicaldetails()[pri:4, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="medicaldetails" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.Enteringphone()[pri:5, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="Enteringphone" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.plantype()[pri:6, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="plantype" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.studentinfo()[pri:7, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="studentinfo" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.tripduration()[pri:8, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="tripduration" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.addingfilter()[pri:9, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="addingfilter" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.InsurancePlans()[pri:10, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="InsurancePlans" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_carinsurance.homePage()[pri:11, instance:TestCases.testcase_carinsurance@38afe297]" name="homePage" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.carinsurancepage()[pri:12, instance:TestCases.testcase_carinsurance@38afe297]" name="carinsurancepage" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.cityandrto()[pri:13, instance:TestCases.testcase_carinsurance@38afe297]" name="cityandrto" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.carbrand()[pri:14, instance:TestCases.testcase_carinsurance@38afe297]" name="carbrand" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.varient()[pri:15, instance:TestCases.testcase_carinsurance@38afe297]" name="varient" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.invalidemail()[pri:16, instance:TestCases.testcase_carinsurance@38afe297]" name="invalidemail" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.errorMessage()[pri:17, instance:TestCases.testcase_carinsurance@38afe297]" name="errorMessage" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_healthinsurance.navigateHomePage()[pri:18, instance:TestCases.testcase_healthinsurance@2df3b89c]" name="navigateHomePage" class="TestCases.testcase_healthinsurance"/>
+        <method signature="testcase_healthinsurance.clickproduct()[pri:19, instance:TestCases.testcase_healthinsurance@2df3b89c]" name="clickproduct" class="TestCases.testcase_healthinsurance"/>
+        <method signature="testcase_healthinsurance.displayinsurancelist()[pri:20, instance:TestCases.testcase_healthinsurance@2df3b89c]" name="displayinsurancelist" class="TestCases.testcase_healthinsurance"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="testcase_travelinsurance.countrydetails()[pri:1, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="countrydetails" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.tripdates()[pri:2, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="tripdates" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.travellerage()[pri:3, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="travellerage" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_travelinsurance.medicaldetails()[pri:4, instance:TestCases.testcase_travelinsurance@5e5d171f]" name="medicaldetails" class="TestCases.testcase_travelinsurance"/>
+        <method signature="testcase_carinsurance.homePage()[pri:11, instance:TestCases.testcase_carinsurance@38afe297]" name="homePage" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_carinsurance.carinsurancepage()[pri:12, instance:TestCases.testcase_carinsurance@38afe297]" name="carinsurancepage" class="TestCases.testcase_carinsurance"/>
+        <method signature="testcase_healthinsurance.navigateHomePage()[pri:18, instance:TestCases.testcase_healthinsurance@2df3b89c]" name="navigateHomePage" class="TestCases.testcase_healthinsurance"/>
+        <method signature="testcase_healthinsurance.clickproduct()[pri:19, instance:TestCases.testcase_healthinsurance@2df3b89c]" name="clickproduct" class="TestCases.testcase_healthinsurance"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-02T17:12:07 IST" name="Testing" finished-at="2024-03-02T17:13:34 IST" duration-ms="87545">
+      <class name="TestCases.testcase_healthinsurance">
+        <test-method signature="navigateHomePage()[pri:18, instance:TestCases.testcase_healthinsurance@2df3b89c]" started-at="2024-03-02T17:13:29 IST" name="navigateHomePage" finished-at="2024-03-02T17:13:31 IST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomePage -->
+        <test-method signature="clickproduct()[pri:19, instance:TestCases.testcase_healthinsurance@2df3b89c]" started-at="2024-03-02T17:13:32 IST" name="clickproduct" finished-at="2024-03-02T17:13:32 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickproduct -->
+        <test-method signature="displayinsurancelist()[pri:20, instance:TestCases.testcase_healthinsurance@2df3b89c]" started-at="2024-03-02T17:13:32 IST" name="displayinsurancelist" finished-at="2024-03-02T17:13:33 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayinsurancelist -->
+      </class> <!-- TestCases.testcase_healthinsurance -->
+      <class name="TestCases.testcase_travelinsurance">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:07 IST" name="setup" finished-at="2024-03-02T17:12:18 IST" duration-ms="10506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="countrydetails()[pri:1, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:18 IST" name="countrydetails" finished-at="2024-03-02T17:12:22 IST" duration-ms="4386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrydetails -->
+        <test-method signature="tripdates()[pri:2, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:23 IST" name="tripdates" finished-at="2024-03-02T17:12:26 IST" duration-ms="3895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tripdates -->
+        <test-method signature="travellerage()[pri:3, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:27 IST" name="travellerage" finished-at="2024-03-02T17:12:36 IST" duration-ms="9012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerage -->
+        <test-method signature="medicaldetails()[pri:4, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:36 IST" name="medicaldetails" finished-at="2024-03-02T17:12:37 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- medicaldetails -->
+        <test-method signature="Enteringphone()[pri:5, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:37 IST" name="Enteringphone" finished-at="2024-03-02T17:12:38 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enteringphone -->
+        <test-method signature="plantype()[pri:6, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:38 IST" name="plantype" finished-at="2024-03-02T17:12:42 IST" duration-ms="4025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plantype -->
+        <test-method signature="studentinfo()[pri:7, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:43 IST" name="studentinfo" finished-at="2024-03-02T17:12:47 IST" duration-ms="4331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentinfo -->
+        <test-method signature="tripduration()[pri:8, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:47 IST" name="tripduration" finished-at="2024-03-02T17:12:47 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tripduration -->
+        <test-method signature="addingfilter()[pri:9, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:47 IST" name="addingfilter" finished-at="2024-03-02T17:12:52 IST" duration-ms="4243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingfilter -->
+        <test-method signature="InsurancePlans()[pri:10, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:12:52 IST" name="InsurancePlans" finished-at="2024-03-02T17:12:54 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurancePlans -->
+        <test-method is-config="true" signature="pageclose()[pri:0, instance:TestCases.testcase_travelinsurance@5e5d171f]" started-at="2024-03-02T17:13:33 IST" name="pageclose" finished-at="2024-03-02T17:13:34 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageclose -->
+      </class> <!-- TestCases.testcase_travelinsurance -->
+      <class name="TestCases.testcase_carinsurance">
+        <test-method signature="homePage()[pri:11, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:12:54 IST" name="homePage" finished-at="2024-03-02T17:12:56 IST" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="carinsurancepage()[pri:12, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:12:56 IST" name="carinsurancepage" finished-at="2024-03-02T17:13:07 IST" duration-ms="10306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carinsurancepage -->
+        <test-method signature="cityandrto()[pri:13, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:13:07 IST" name="cityandrto" finished-at="2024-03-02T17:13:11 IST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityandrto -->
+        <test-method signature="carbrand()[pri:14, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:13:11 IST" name="carbrand" finished-at="2024-03-02T17:13:16 IST" duration-ms="4376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carbrand -->
+        <test-method signature="varient()[pri:15, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:13:16 IST" name="varient" finished-at="2024-03-02T17:13:20 IST" duration-ms="4451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varient -->
+        <test-method signature="invalidemail()[pri:16, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:13:20 IST" name="invalidemail" finished-at="2024-03-02T17:13:27 IST" duration-ms="6502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidemail -->
+        <test-method signature="errorMessage()[pri:17, instance:TestCases.testcase_carinsurance@38afe297]" started-at="2024-03-02T17:13:27 IST" name="errorMessage" finished-at="2024-03-02T17:13:29 IST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+      </class> <!-- TestCases.testcase_carinsurance -->
+    </test> <!-- Testing -->
+  </suite> <!-- Suite -->
+</testng-results>

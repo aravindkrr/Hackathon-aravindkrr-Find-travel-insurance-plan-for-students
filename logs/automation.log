@@ -1,0 +1,37 @@
+17:12:18.341 [main] INFO  TestCases.testcase_travelinsurance - Starting testcase_travelinsurance
+17:12:18.393 [main] INFO  TestCases.testcase_travelinsurance - Entering Students TravelInsurance Plan Details
+17:12:54.259 [main] INFO  TestCases.testcase_travelinsurance - Ending testcase_travelinsurance
+17:12:56.648 [main] INFO  TestCases.testcase_travelinsurance - Starting testcase_carinsurance
+17:12:56.783 [main] INFO  TestCases.testcase_travelinsurance - Entering Car Insurance Plans Details
+17:13:29.488 [main] INFO  TestCases.testcase_travelinsurance - Error message Printed
+17:13:29.488 [main] INFO  TestCases.testcase_travelinsurance - Ending testcase_carinsurance
+17:13:31.924 [main] INFO  TestCases.testcase_travelinsurance - Starting testcase_healthinsurance
+17:13:32.052 [main] INFO  TestCases.testcase_travelinsurance - Getting the list of Insurance Product Plans 
+17:13:33.472 [main] INFO  TestCases.testcase_travelinsurance - Ending testcase_healthinsurance
+17:52:49.392 [main] INFO  TestBase.commonbase - Starting Cucumber Framework
+17:52:49.402 [main] INFO  TestBase.commonbase - Regression Testing is Started
+17:52:49.403 [main] INFO  TestBase.commonbase - Started Travel Insurance
+17:52:49.403 [main] INFO  TestBase.commonbase - Entering Student Details
+17:53:07.434 [main] INFO  TestBase.commonbase - Started Car Insurace
+17:53:18.173 [main] INFO  TestBase.commonbase - Entering Car Details
+17:53:38.629 [main] INFO  TestBase.commonbase - Capturing Error Message
+17:53:41.113 [main] INFO  TestBase.commonbase - Ended Car Insurace
+17:53:43.585 [main] INFO  TestBase.commonbase - Started Health Insurace
+17:53:45.811 [main] INFO  TestBase.commonbase - Displaying Health Plans
+17:53:45.812 [main] INFO  TestBase.commonbase - Ended Health Insurace
+17:53:45.812 [main] INFO  TestBase.commonbase - Regression Testing is Ended
+17:53:45.812 [main] INFO  TestBase.commonbase - Ending Cucumber Framework
+17:55:59.429 [main] INFO  TestBase.commonbase - Starting Cucumber Framework
+17:55:59.439 [main] INFO  TestBase.commonbase - Regression Testing is Started
+17:55:59.439 [main] INFO  TestBase.commonbase - Started Travel Insurance
+17:55:59.440 [main] INFO  TestBase.commonbase - Entering Student Details
+17:56:38.707 [main] INFO  TestBase.commonbase - Ended Travel Insurace
+17:56:41.810 [main] INFO  TestBase.commonbase - Started Car Insurace
+17:56:52.870 [main] INFO  TestBase.commonbase - Entering Car Details
+17:57:13.439 [main] INFO  TestBase.commonbase - Capturing Error Message
+17:57:15.536 [main] INFO  TestBase.commonbase - Ended Car Insurace
+17:57:17.481 [main] INFO  TestBase.commonbase - Started Health Insurace
+17:57:19.167 [main] INFO  TestBase.commonbase - Displaying Health Plans
+17:57:19.168 [main] INFO  TestBase.commonbase - Ended Health Insurace
+17:57:19.168 [main] INFO  TestBase.commonbase - Regression Testing is Ended
+17:57:19.168 [main] INFO  TestBase.commonbase - Ending Cucumber Framework
